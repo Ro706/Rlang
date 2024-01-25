@@ -1,0 +1,4 @@
+Rscript <filename>.R -> this cmd is use for run the R script in the linux . 
+vim <filename>.R -> this cmd is use to create R extention file in linux .
+ide => R -> this cmd is use for  open ide in your terminal or  kernal .
+
