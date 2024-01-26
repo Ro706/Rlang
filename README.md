@@ -16,4 +16,33 @@ Here's a simple example of R code that prints "Hello, World!" to the console:
 ```r
 print("Hello, World!")
 ```
+# Declaring Variables in R
+
+In R, a variable is a named space in the memory, used for storing data values. Here are some key points about variables in R:
+
+- **Dynamically Typed**: R is a dynamically typed language, which means variables take the data type of the R-object assigned to them.
+- **Assignment**: Variables in R can be assigned in three ways:
+    * Using equal operator: `variable_name = value`
+    * Using the leftward operator: `variable_name <- value`
+    * Using the rightward operator: `value -> variable_name`
+- **Naming Rules**:
+    * A valid variable name consists of a combination of alphabets, numbers, dot (.), and underscore (_) characters.
+    * Variables can start with alphabets or dot characters, but not with numbers or underscore.
+    * If a variable starts with a dot, the next thing after the dot cannot be a number.
+    * The variable name should not be a reserved keyword in R.
+
+## Example of Declaring Variables in R
+
+Here's an example of declaring variables in R:
+
+```r
+var1 = "hello"  # Using equal operator
+print(var1)
+
+var2 <- "hello"  # Using leftward operator
+print(var2)
+
+"hello" -> var3  # Using rightward operator
+print(var3)
+
 
