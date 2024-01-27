@@ -46,7 +46,7 @@ print(var2)
 print(var3)
 
 ```
-```
+```r
 a <- 4
 print(paste("a = ",a))
 b <- "rohit"
