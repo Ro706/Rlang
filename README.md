@@ -48,9 +48,9 @@ print(var3)
 ```
 ```r
 a <- 4
-print(paste("a = ",a))
+print(paste("a = ",a)) #a = 4
 b <- "rohit"
-print(paste("b = ",b))
+print(paste("b = ",b)) #b = "rohit"
 c <- 12.999090
-print(paste("c =",c))
+print(paste("c =",c))  #c = 12999090
 ```
